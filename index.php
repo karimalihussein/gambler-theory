@@ -97,7 +97,8 @@ class Game {
 
 $game = new Game(
     new Player('Joe', 100),
-    new Player('Jane', 100),
+    // new Player('Jane', 100),
+    new Player('Casino', 10000),
 );
 
 $game->start();
